@@ -16,7 +16,7 @@ export const metadata = {
 
   openGraph: {
     title: "Khushi & Shubh",
-    description: "Join as they begin their forever. 1, 2, 3 & 5 December, 2026",
+    description: "Join as they begin their forever. 5 December, 2026",
     url: "https://khushiandshubh2.vercel.app/",
     siteName: "InviteArc",
     images: [
@@ -33,7 +33,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Khushi & Shubh",
-    description: "Join as they begin their forever. 1, 2, 3 & 5 December, 2026",
+    description: "Join as they begin their forever. 5 December, 2026",
     images: ["/og.jpg"],
   },
 

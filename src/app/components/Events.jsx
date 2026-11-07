@@ -43,7 +43,7 @@ export default function Events() {
   return (
     <>
       {/* Sagan event */}
-      <div className="flex scroll-mt-6 flex-col justify-center items-center bg-[url('/assets/ring_bg.webp')] bg-cover bg-no-repeat">
+      {/* <div className="flex scroll-mt-6 flex-col justify-center items-center bg-[url('/assets/ring_bg.webp')] bg-cover bg-no-repeat">
         <Reveal from="top" className="w-full">
           <img
             src="/assets/ring_top.webp"
@@ -88,11 +88,10 @@ export default function Events() {
             className="w-full"
           />
         </Reveal>
-      </div>
+      </div> */}
 
-
-{/* haldi event */}
-      <div className="flex scroll-mt-6 flex-col justify-center items-center bg-[url('/assets/haldi_bg.webp')] bg-cover bg-no-repeat">
+      {/* haldi event */}
+      {/* <div className="flex scroll-mt-6 flex-col justify-center items-center bg-[url('/assets/haldi_bg.webp')] bg-cover bg-no-repeat">
         <Reveal from="top" className="w-full">
           <img
             src="/assets/haldi_top-v1.webp"
@@ -144,11 +143,10 @@ export default function Events() {
             className="w-full"
           />
         </Reveal>
-      </div>
-
+      </div> */}
 
       {/* Cocktail event */}
-      <div className="flex scroll-mt-6 flex-col justify-center items-center bg-[url('/assets/cocktail_bg.webp')] bg-cover bg-no-repeat">
+      {/* <div className="flex scroll-mt-6 flex-col justify-center items-center bg-[url('/assets/cocktail_bg.webp')] bg-cover bg-no-repeat">
         <div className="flex flex-col items-center rounded-2xl lg:py-12 lg:px-20 px-6 md:mt-20 mt-16">
         
           <h2 className="text-[#8c1034] font-cormorant-upright font-semibold  text-[40px] md:text-5xl lg:text-[70px]">
@@ -184,18 +182,11 @@ export default function Events() {
     className="block w-full h-auto"
   />
 </Reveal>
-      </div>
+      </div> */}
 
-      
-
-
-
- {/* Baarat event */}
+      {/* Baarat event */}
       <div className="flex scroll-mt-6 flex-col justify-center items-center bg-[url('/assets/baarat.webp')] bg-cover bg-no-repeat">
-        
-
         <div className="flex flex-col items-center rounded-2xl lg:py-12 lg:px-20 px-6 md:mt-20 mb-10 mt-16">
-          
           <h2 className="text-white font-cormorant-upright font-semibold  text-[40px] md:text-5xl lg:text-[70px] text-center">
             Wedding
           </h2>
@@ -203,13 +194,15 @@ export default function Events() {
             5 December 2026 · Saturday
           </p>
           <p className="text-[#fff] font-cormorant-garamond text-[15px] md:text-base lg:text-[25px] text-center">
-           Reception of baraat - 8pm <br/>
-           Dinner - 9pm  <br/>
-Doli - Taaro ki Chaaon mein
+            Reception of baraat - 8pm <br />
+            Dinner - 9pm <br />
+            Doli - Taaro ki Chaaon mein
           </p>
           <p className="text-[#fff] font-cormorant-garamond text-[14px] md:text-base text-center lg:text-[25px]">
-            The Medallion by Kawatra’s<br />
-            Golden Paris Kawatra Tent, Shivaji Enclave, <br/> Raja Garden, Delhi, 110027
+            The Medallion by Kawatra’s
+            <br />
+            Golden Paris Kawatra Tent, Shivaji Enclave, <br /> Raja Garden,
+            Delhi, 110027
           </p>
 
           <div className="flex flex-col items-center justify-center">
@@ -224,7 +217,10 @@ Doli - Taaro ki Chaaon mein
           </div>
         </div>
 
-        <Reveal from="bottom" className="w-full md:relative md:left-1/2 md:-translate-x-1/2 md:w-screen">
+        <Reveal
+          from="bottom"
+          className="w-full md:relative md:left-1/2 md:-translate-x-1/2 md:w-screen"
+        >
           <img
             src="/assets/baarat_bottom.webp"
             alt="Wedding Logo"
@@ -232,10 +228,6 @@ Doli - Taaro ki Chaaon mein
           />
         </Reveal>
       </div>
-
-
-
-      
     </>
   );
 }
